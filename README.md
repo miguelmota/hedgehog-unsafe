@@ -1,6 +1,6 @@
 Hedgehog vulnerability
 
-> Example of why the hedgehog app is currenty unsafe
+> Example of why the [hedgehog library](https://hedgehog.audius.co) is currenty unsafe
 
 Start example dapp (taken from the hedgehog homepage)
 
@@ -22,7 +22,9 @@ $ node index.js
 
 The mnemonic will be displayed on the server after signing up or logging in
 
-## Prevention
+<img src="https://user-images.githubusercontent.com/168240/58727984-a94b5700-839a-11e9-9f99-96cb2d82da67.gif" alt="demo">
+
+Prevention
 
 - Use CSP and iframe sandboxing
 

