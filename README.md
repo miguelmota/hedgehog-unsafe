@@ -1,8 +1,8 @@
-**Hedgehog vulnerability**
+# Hedgehog vulnerability
 
-> Example showing how [hedgehog library](https://hedgehog.audius.co) is currenty unsafe
+> Example showing how [hedgehog library](https://hedgehog.audius.co) is currenty unsafe ([issue #9](https://github.com/AudiusProject/hedgehog/issues/9))
 
-Start example dapp (taken from the hedgehog homepage)
+Start example dapp (taken from the hedgehog [homepage](https://codesandbox.io/s/pp9zzv2n00?fontsize=14))
 
 ```bash
 $ cd dapp/
